@@ -1,9 +1,13 @@
-function App() {
+import { BrowserRouter, Routes, Route } from "react-router"
+import MainPage from "./core/pages/main-page"
 
+function App() {
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
