@@ -10,7 +10,7 @@ const dateInputWrapperVariants = cva(`
 
 const dateInputVariants = cva(`
   cursor-pointer outline-none bg-transparent text-gray-200 text-sm w-full
-    [&::-webkit-calendar-picker-indicator]:hidden
+  [&::-webkit-calendar-picker-indicator]:hidden
   `
 )
 

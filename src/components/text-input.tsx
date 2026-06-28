@@ -31,12 +31,12 @@ export default function TextInput({
   return (
     <div
       className={cn(
-        textInputVariants({  size }),
+        textInputVariants({ size }),
         className,
       )}
 
     >
-      <Icon svg={UserSquare} className="fill-yellow" />
+      <Icon svg={UserSquare} className="fill-yellow size-5" />
       <input
         className="
           flex-1
